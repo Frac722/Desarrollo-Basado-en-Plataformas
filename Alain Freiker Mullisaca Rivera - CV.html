@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <style>
+
+        .grid-container1{
+            display: grid;
+            grid-template-rows: auto auto;
+            grid-template-columns: 1fr 2fr;
+            grid-gap: 0px;
+            grid-template-areas:
+                "item1 item2"
+                "item3 item4";
+        }
+        .grid1-item1{
+            background: rgb(59, 59, 59);
+            padding: 20px;
+            text-align: center;
+            border: black 0px solid;
+            grid-area: item1;
+            
+        }
+        .imagen-circular {
+            border-radius: 50%;
+            height: 200px;
+            width: 200px;
+        }
+        .grid1-item2{
+            background: rgb(59, 59, 59);
+            text-align: center;
+            border: black 0px solid;
+            display: table-cell;
+            vertical-align: middle; 
+            padding: 40px 0px 0px 0px;
+            grid-area: item2;
+        }
+        .grid1-item3{
+            background: rgb(226, 226, 226);
+            vertical-align: middle; 
+            grid-area: item3;
+            padding: 30px;
+        }
+        .grid1-item4{
+            background: rgb(255, 255, 255);
+            vertical-align: middle; 
+            grid-area: item4;
+            padding: 30px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="grid-container1">
+        <div class="grid1-item1">
+          <img src="hombre.png" alt="Descripción de la imagen" class="imagen-circular">
+        </div>
+
+        <div class="grid1-item2">
+          <h1 style="color:rgb(248, 248, 248);">JOSÉ MARTINEZ</h1>
+          <h1 style="color:rgb(190, 190, 190);">PUESTO OCUPADO/BUSCADO</h1>
+        </div>
+
+        <div class="grid1-item3">
+            <u><h2>CONTACTO</h2></u>
+                <P> 999 999 999</P>
+                <P> jose.martinez@gmail.com</P>
+                <P> linkendin,com/se.martinez</P>
+
+            <u><h2>IDIOMAS</h2></u>
+                <P> Español: nativo</P>
+                <P> Inglés: bilingue(TOEIC 950)</P>
+                <P> Frances: Intermedio(B2)</P>
+
+            <u><h2>APTITUDES</h2></u>
+            <UL type= disk>
+                <li>Inteligencai emocional</li>
+                <li> Espiritu critico</li>
+                <li> trabajo en equipo</li>
+                <li> capacidad analitica</li>
+                <li> habilidades fisicas</li>
+            </UL>
+                
+            <u><h2>HABILIDADES</h2></u>
+            <UL type= disk>
+                <li> Acondicionamiento fisico</li>
+                <li> Creacion videos deportivos</li>
+                <li>  Pack office</li>
+                <li>  Tenis</li>
+            </UL>
+
+            <u><h2>OTROS INTERESANTES</h2></u>
+            <UL type= disk>
+                <li> Creador de vincanas</li>
+                <li> paseos ecologicos grupales</li>
+                <li> Lectura grupal en inglés</li>
+            </UL>
+        </div>
+
+        <div class="grid1-item4">
+            <u><h2>PERFIL</h2></u>
+            <P> Trabajo social con 4 años de experiencia en proyectos colectivos<br>
+              Mi objetivo es lograr que los jovenes obtengan acceso<br> 
+              a la educacion superior mediante logros deportivos </P>
+                  
+            <u><h2>EXPERIENCIA LABORAL</h2></u>  
+                  
+            <b><h3>Trabajador Social</h3></b>
+            <p style="color:rgb(128, 128, 128);"><b>MexicoDF,</b>| 2022-actualmente</p>
+            <UL type= disk> 
+            <li> Coordinador y mediador entre los equipos de ayuda psicologica<br>
+            a jovenes y niños en exclusion social.</li>
+            <li> Velar por la salud mental del equipo y de miembros involucrados<br> en proyectos </li>
+            <li> Mepeo de necesidad estrategicas y logicas para las diferentes areas</li>
+            <li> Monitor de ejercicios fisicos para adolescentes </li>
+            <li> Programar diferentes actividades extracurriculares</li>
+            </UL>
+                  
+          <b><h3>Trabajador Social</h3></b>
+            <p style="color:rgb(128, 128, 128);"><b>MexicoDF,</b>| 2020-2022</p>
+            <UL type= disk>
+            <li> Funciones para seguimiento de casos para jovenes con problemas de<br>
+            adicciones.</li>
+            <li> Capacitaciones e integracion vinculadas a medidas preventivas</li>
+            <li> Recopilacion de evidencias para auditorias y progrmas sociales</li>
+            </UL>
+        
+          <b><h3>Trabajador Social(prácticas)</h3></b>
+            <p style="color:rgb(128, 128, 128);"><b>Zaragoza, España</b>| 2019-2020</p>
+            <UL type= disk>
+            <li> Profesor de lengua española e inglesa para jovenes migrantes.</li>
+            <li> Monitor de actividades ecologicas con adolescentes</li>
+            <li> Corrdinador de areas deportivas</li>
+            </UL>
+        
+            <u><h2>FORMACION</h2></u> 
+            <h3><b>Grado de Trabajo Social</b></h3>
+            <p style="color:rgb(128, 128, 128);"><b>ESMA, Madrid</b>| 2019-2020</p>
+            <h3><b>Licenciatura Profesional</b></h3>
+            <p style="color:rgb(128, 128, 128);"><b>Universidad de la frontera, Mexico DF</b>| 2011-2012</p>
+
+        </div>
+    </div>
+</body>
+</html>
