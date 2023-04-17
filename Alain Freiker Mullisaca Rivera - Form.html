@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="nombre">Nombre y Apellidos:</label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+        
+        <label for="fecha">Fecha de Nacimiento:</label>
+        <input type="time" id="fecha" name="fecha"><br><br>
+        
+        <label for="ocupacion">Ocupación:</label>
+        <input type="text" id="ocupacion" name="ocupacion"><br><br>
+        
+        <label for="contacto">Contacto (teléfono, email):</label>
+        <input type="text" id="contacto" name="contacto"><br><br>
+        
+        <label for="nacionalidad">Nacionalidad:</label>
+        <select id="nacionalidad" name="nacionalidad">
+            <option value="peruano">Español</option>
+            <option value="español">Español</option>
+            <option value="mexicano">Mexicano</option>
+            <option value="argentino">Argentino</option>
+          <option value="chileno">Chileno</option>
+        </select><br><br>
+        
+        <label for="ingles">Nivel de inglés:</label><br>
+        <input type="radio" id="basico" name="ingles" value="basico">
+        <label for="basico">Básico</label><br>
+        <input type="radio" id="intermedio" name="ingles" value="intermedio">
+        <label for="intermedio">Intermedio</label><br>
+        <input type="radio" id="avanzado" name="ingles" value="avanzado">
+        <label for="avanzado">Avanzado</label><br>
+        <input type="radio" id="fluido" name="ingles" value="fluido">
+        <label for="fluido">Fluido</label><br><br>
+        
+        <label for="lenguajes">Lenguajes de programación:</label><br>
+        <select id="lenguajes" name="lenguajes" multiple>
+          <option value="java">Java</option>
+          <option value="python">Python</option>
+          <option value="javascript">JavaScript</option>
+          <option value="c++">C++</option>
+          <option value="php">PHP</option>
+        </select><br><br>
+        
+        <label for="aptitudes">Aptitudes:</label>
+        <input list="aptitudes" name="aptitud">
+        <datalist id="aptitudes">
+          <option value="Creatividad">
+          <option value="Comunicación">
+          <option value="Pensamiento analítico">
+          <option value="Trabajo en equipo">
+          <option value="Liderazgo">
+        </datalist><br><br>
+        
+        <label for="habilidades">Habilidades:</label><br>
+        <input type="checkbox" id="habilidad1" name="habilidad1" value="Habilidad 1">
+        <label for="habilidad1"> Habilidad 1</label><br>
+        <input type="checkbox" id="habilidad2" name="habilidad2" value="Habilidad 2">
+        <label for="habilidad2"> Habilidad 2</label><br>
+        <input type="checkbox" id="habilidad3" name="habilidad3" value="Habilidad 3">
+        <label for="habilidad3"> Habilidad 3</label><br>
+        <input type="checkbox" id="habilidad4" name="habilidad4" value="Habilidad 4">
+        <label for="habilidad4"> Habilidad 4</label><br><br>
+        
+        </fieldset>
+        <fieldset>
+          <legend>Perfil</legend>
+          <textarea id="perfil" name="perfil" rows="10" cols="50"></textarea>
+        </fieldset>
+
+        <input type="submit" value="Enviar">
+        
+        </form>
+
+      
+</body>
+</html>
