@@ -15,7 +15,7 @@ namespace CV
         {
             InitializeComponent();
 
-            // Mostrar los datos en los elementos de la página
+            
             nombreLabel.Text = nombre;
             fechaNacimientoLabel.Text = fechaNacimiento.ToString("dd/MM/yyyy");
             ocupacionLabel.Text = ocupacion;
