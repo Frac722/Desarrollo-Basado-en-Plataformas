@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CV.MainPage">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="CustomBlueColor">#141827</Color>
+            <Color x:Key="CustomYellowColor">#f5ecb7</Color>
+            <Style TargetType="Label">
+                <Setter Property="TextColor" Value="{StaticResource CustomBlueColor}" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <StackLayout BackgroundColor="{StaticResource CustomYellowColor}">
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Nombre y Apellidos:" />
+            <Entry x:Name="nombreEntry" Placeholder="Ingrese su nombre y apellidos" />
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Fecha de Nacimiento:" />
+            <DatePicker x:Name="fechaNacimientoPicker" />
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Ocupación:" />
+            <Entry x:Name="ocupacionEntry" Placeholder="Ingrese su ocupación" />
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Contacto (teléfono, email):" />
+            <Entry x:Name="contactoEntry" Placeholder="Ingrese su contacto" />
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Nacionalidad:" />
+            <Picker x:Name="nacionalidadPicker" Title="Seleccione una nacionalidad">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Español</x:String>
+                        <x:String>Mexicano</x:String>
+                        <x:String>Argentino</x:String>
+                        <x:String>Chileno</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Nivel de inglés:" />
+            <StackLayout Orientation="Vertical">
+                <StackLayout Orientation="Horizontal">
+                    <RadioButton x:Name="basicoRadioButton" />
+                    <Label Text="Básico" />
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <RadioButton x:Name="intermedioRadioButton" />
+                    <Label Text="Intermedio" />
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <RadioButton x:Name="avanzadoRadioButton" />
+                    <Label Text="Avanzado" />
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <RadioButton x:Name="fluidoRadioButton" />
+                    <Label Text="Fluido" />
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Lenguajes de programación:" />
+            <StackLayout x:Name="lenguajesLayout">
+                <StackLayout Orientation="Horizontal">
+                    <CheckBox x:Name="javaCheckBox" />
+                    <Label Text="Java" />
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <CheckBox x:Name="pythonCheckBox" />
+                    <Label Text="Python" />
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <CheckBox x:Name="javascriptCheckBox" />
+                    <Label Text="JavaScript" />
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <CheckBox x:Name="cplusCheckBox" />
+                    <Label Text="C++" />
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <CheckBox x:Name="phpCheckBox" />
+                    <Label Text="PHP" />
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Aptitudes:" />
+            <Entry Placeholder="Ingrese una aptitud" />
+        </StackLayout>
+
+        <Button Text="Enviar" Clicked="EnviarButton_Clicked" />
+
+    </StackLayout>
+
+</ContentPage>

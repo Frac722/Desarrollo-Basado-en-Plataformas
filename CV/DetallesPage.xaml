@@ -1,0 +1,30 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CV.DetallesPage">
+
+    <StackLayout Padding="20">
+        <Label Text="Detalles del formulario" FontSize="Title" HorizontalOptions="Center" Margin="0,0,0,20" />
+
+        <Label Text="Nombre y Apellidos:" FontAttributes="Bold" />
+        <Label x:Name="nombreLabel" />
+
+        <Label Text="Fecha de Nacimiento:" FontAttributes="Bold" />
+        <Label x:Name="fechaNacimientoLabel" />
+
+        <Label Text="Ocupación:" FontAttributes="Bold" />
+        <Label x:Name="ocupacionLabel" />
+
+        <Label Text="Contacto (teléfono, email):" FontAttributes="Bold" />
+        <Label x:Name="contactoLabel" />
+
+        <Label Text="Nacionalidad:" FontAttributes="Bold" />
+        <Label x:Name="nacionalidadLabel" />
+
+        <Label Text="Nivel de inglés:" FontAttributes="Bold" />
+        <Label x:Name="nivelInglesLabel" />
+
+        <Label Text="Lenguajes de programación:" FontAttributes="Bold" />
+        <Label x:Name="lenguajesProgramacionLabel" />
+    </StackLayout>
+
+</ContentPage>

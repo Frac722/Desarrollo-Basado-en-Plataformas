@@ -1,0 +1,16 @@
+C:\Users\USUARIO\OneDrive\Escritorio\CV\CV\CV\bin\Debug\netstandard2.0\CV.deps.json
+C:\Users\USUARIO\OneDrive\Escritorio\CV\CV\CV\bin\Debug\netstandard2.0\CV.dll
+C:\Users\USUARIO\OneDrive\Escritorio\CV\CV\CV\bin\Debug\netstandard2.0\CV.pdb
+C:\Users\USUARIO\OneDrive\Escritorio\CV\CV\CV\obj\Debug\netstandard2.0\CV.csproj.AssemblyReference.cache
+C:\Users\USUARIO\OneDrive\Escritorio\CV\CV\CV\obj\Debug\netstandard2.0\CV.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\OneDrive\Escritorio\CV\CV\CV\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\USUARIO\OneDrive\Escritorio\CV\CV\CV\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\USUARIO\OneDrive\Escritorio\CV\CV\CV\obj\Debug\netstandard2.0\CV.AssemblyInfoInputs.cache
+C:\Users\USUARIO\OneDrive\Escritorio\CV\CV\CV\obj\Debug\netstandard2.0\CV.AssemblyInfo.cs
+C:\Users\USUARIO\OneDrive\Escritorio\CV\CV\CV\obj\Debug\netstandard2.0\CV.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\OneDrive\Escritorio\CV\CV\CV\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\USUARIO\OneDrive\Escritorio\CV\CV\CV\obj\Debug\netstandard2.0\CV.dll
+C:\Users\USUARIO\OneDrive\Escritorio\CV\CV\CV\obj\Debug\netstandard2.0\refint\CV.dll
+C:\Users\USUARIO\OneDrive\Escritorio\CV\CV\CV\obj\Debug\netstandard2.0\CV.pdb
+C:\Users\USUARIO\OneDrive\Escritorio\CV\CV\CV\obj\Debug\netstandard2.0\ref\CV.dll
+C:\Users\USUARIO\OneDrive\Escritorio\CV\CV\CV\obj\Debug\netstandard2.0\DetallesPage.xaml.g.cs
