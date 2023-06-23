@@ -17,7 +17,7 @@ namespace CV
 
         private async void EnviarButton_Clicked(object sender, EventArgs e)
         {
-            // Obtén los datos del formulario
+            
             string nombre = nombreEntry.Text;
             DateTime fechaNacimiento = fechaNacimientoPicker.Date;
             string ocupacion = ocupacionEntry.Text;
@@ -26,10 +26,10 @@ namespace CV
             string nivelIngles = GetSelectedRadioButtonText();
             List<string> lenguajesProgramacion = GetSelectedCheckBoxes();
 
-            // Crea una nueva página y pasa los datos como parámetros
+            
             DetallesPage detallesPage = new DetallesPage(nombre, fechaNacimiento, ocupacion, contacto, nacionalidad, nivelIngles, lenguajesProgramacion);
 
-            // Realiza la navegación a la nueva página
+            
             await Navigation.PushAsync(detallesPage);
         }
 
